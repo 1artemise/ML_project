@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.bak
+Thumbs.db
+desktop.ini
+
+# Office temp files
+~$*.docx
+
+# Local reports / docs not required for runtime
+*.docx
+
+# Optional local reference materials
+参考文献/
+
+# Local dataset file (too large for regular GitHub push)
+dataset/*.csv
+
+# Generated experiment outputs
+results.csv
+threshold_results.csv
+smote_ratio_results.csv
+rf_param_results.csv
+five_experiments_results.csv
+threshold_results_smote_0_3_rf300.csv
+brf_threshold_results.csv
+feature_importance.csv
+*.png
