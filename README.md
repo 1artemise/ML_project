@@ -44,13 +44,7 @@ python -m unittest tests.test_credit_fraud_experiment -v
 ## 数据说明
 
 本项目使用 Kaggle 信用卡欺诈数据集 `creditcard.csv`。  
-如果你不上传数据集到 GitHub，需要自己将数据文件放到：
-
-```text
-dataset/creditcard.csv
-```
-
-否则脚本运行时会报找不到数据集。
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ## 当前实验主线
 
@@ -65,7 +59,3 @@ dataset/creditcard.csv
   - `max_depth = None`
   - `min_samples_leaf = 1`
 
-## 说明
-
-- `机器学习大作业.docx` 不属于最小可运行单元，不建议上传。
-- `.venv/`、`__pycache__/`、`.idea/` 这类本地环境文件也不应上传。
